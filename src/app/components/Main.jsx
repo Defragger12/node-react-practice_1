@@ -11,7 +11,6 @@ export const Main = () => (
     <Provider store={store}>
       <div>
         <ConnectedNavigation/>
-        {/*<ConnectedDashboard/>*/}
         <Route exact path="/dashboard" render={() => (<ConnectedDashboard/>)}/>
       </div>
     </Provider>
